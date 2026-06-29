@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-heading: 'Outfit', serif;
+  --font-display: 'Playfair Display', serif;
+  
+  --color-brand-emerald: #0A2E24;
+  --color-brand-gold: #C9A340;
+  --color-brand-charcoal: #090909;
+  --color-brand-ivory: #FCFAF6;
+  --color-brand-stone: #5C5850;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-brand-ivory text-brand-charcoal antialiased overflow-x-hidden;
+  }
+}
