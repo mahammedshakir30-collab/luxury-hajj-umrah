@@ -3,6 +3,8 @@ import ScrollProgress from './components/ScrollProgress';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import ServiceHighlightsLoop from './components/ServiceHighlightsLoop';
+import WhyChooseUs from './components/WhyChooseUs';
+import JourneyFilm from './components/JourneyFilm';
 import Timeline from './components/Timeline';
 import Destinations from './components/Destinations';
 import Testimonials from './components/Testimonials';
@@ -20,6 +22,8 @@ export default function App() {
       <main>
         <Hero />
         <ServiceHighlightsLoop />
+        <FadeInSection><WhyChooseUs /></FadeInSection>
+        <FadeInSection><JourneyFilm /></FadeInSection>
         <FadeInSection><Timeline /></FadeInSection>
         <FadeInSection><Destinations /></FadeInSection>
         <Testimonials />
